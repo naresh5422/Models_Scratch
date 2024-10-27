@@ -25,5 +25,8 @@ $$
 - No additional training is required since KNN is a lazy learner
 
 
+#### Decision Tree
+
+
 
 
