@@ -33,3 +33,7 @@ class LogisticRegression:
         y_predicted = self.sigmoid(linear_model)
         results = [1 if i > 0.5 else 0 for i in y_predicted]
         return results
+    def accuracy(self, y_true, y_pred):
+        acc = np.sum(y_true == y_pred)/len(y_true)
+        return acc
+    

@@ -8,3 +8,6 @@ logi_reg = LogisticRegression()
 logi_reg.fit(X, y)
 pred = logi_reg.predict(X)
 print(f"Predicted values are: {pred}")
+
+acc = logi_reg.accuracy(y, pred)
+print(f"Accuracy of the Logistic Regression model is : {acc}")
