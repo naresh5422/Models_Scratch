@@ -27,3 +27,7 @@ class LinearRegression:
     def predict(self, X):
         res = np.dot(X, self.weights)+self.bias
         return res
+    
+    def mean_squared_error(self, y_true, y_pred):
+        mse = np.mean((y_true-y_pred)**2)
+        return mse

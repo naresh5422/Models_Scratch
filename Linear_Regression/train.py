@@ -11,3 +11,7 @@ model.fit(X, y)
 pred = model.predict(X)
 print(f"Predictions are: {pred}")
 
+mse = model.mean_squared_error(y, pred)
+print(f"Mean_Squared_Error is: {mse}")
+
+
