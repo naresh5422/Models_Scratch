@@ -16,7 +16,7 @@ $$
 - It calculates the probability of a data point belonging to a class  using the give Sigmoid function
 
 $$
-P(y=1|x) = \frac{1}{1 + e^{-(\beta_0 + \beta_1 x)}}
+P(y=1|x) = \frac{1}{1 + e^{-(x)}}
 $$
 
 
