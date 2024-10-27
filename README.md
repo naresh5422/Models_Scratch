@@ -20,3 +20,10 @@ P(y=1|x) = \frac{1}{1 + e^{-(x)}}
 $$
 
 
+#### K-Nearest Neighbors (KNN)
+- It is a Non-parametric and lazy learning algorithm that classifies data points based on the their proximity to other point means using Distance metrics like Euclidian, Manhatten Distances.
+- No additional training is required since KNN is a lazy learner
+
+
+
+
